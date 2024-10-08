@@ -13,7 +13,7 @@ const options = {
   },
 };
 const ApiUrl =
-  "https://quotes15.p.rapidapi.com/quotes/random/?language_code=de";
+  "https://quotes15.p.rapidapi.com/quotes/random/?language_code=en";
 
 async function getQoute() {
   quotes.innerText = "getting quotes...";
